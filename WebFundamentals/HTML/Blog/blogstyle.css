@@ -1,0 +1,17 @@
+.jordantext {
+display: none;
+width: 200px;
+height: 75px;
+overflow: scroll;
+border: 10px solid green;
+border-radius: 5px;
+text-align: center;
+font-family: monospace;
+font-size: 32px;
+font-weight: 100;
+}
+
+//.jordanpic {
+  width: 500px;
+  height: 500px;
+}

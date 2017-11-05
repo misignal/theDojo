@@ -1,0 +1,51 @@
+body {
+  background-color: tan;
+  width: 1100px;
+}
+
+
+div li {
+  display: inline-block;
+}
+
+div li img {
+    padding-top: 5px;
+}
+
+
+.title img {
+background-color: white;
+height: 50px;
+width: 120px;
+}
+
+.rows1 {
+  padding-bottom: 5px;
+}
+
+.rows1 li {
+  border: 3px solid black;
+  padding: 20px;
+
+}
+
+.rows1 img {
+  width: 160px;
+  height: 151px;
+  background-color: blue;
+}
+
+.blue {
+  background-color: lightblue;
+}
+.blue img {
+  background-color: white;
+}
+
+.red {
+  background-color: lightpink;
+}
+
+.red img {
+  background-color: lightpink;
+}

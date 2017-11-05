@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Registration Form</title>
+</head>
+<body>
+  <form action="process.php" method="post">
+      <p>Please Register</p>
+      <label for="first_name">First Name:</label>
+      <input type="text" id="first_name" name="first_name">
+  <br>
+      <label for="first_name">Last Name:</label>
+      <input type="text" id="last_name" name="last_name">
+  <br>
+      <label for="first_name">Email:</label>
+      <input type="text" id="email" name="email">
+  <br>
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password">
+  <br>
+      <label for="password">Confirm Password</label>
+      <input type="password" id="confirmpassword" name="confirmpassword">
+  <br>
+      <label for="date">Birthdate</label>
+      <input type="date" id="date" name="date">
+  <br>
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="other">Other</label>
+      <input type="radio" id="other" name="gender" value="other">
+  <br>
+      <label>A short Description About Yourself</label>
+  <br>
+      <textarea name="about"></textarea>
+  <p>
+      <label>Favorite Language</label>
+      <select name="language">
+        <option value="Javascript">Javascript</option>
+        <option value="PHP">PHP</option>
+        <option value="Ruby">Ruby</option>
+      </select>
+</p>
+
+  <br>
+      <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
